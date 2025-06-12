@@ -38,8 +38,8 @@ pip install senpwai
 ```
 
 -   **NixOS**
-  
-> Add this repo's flake to your flake inputs
+
+Add this repo's flake to your flake inputs
 
 ```
 # flake.nix
@@ -57,7 +57,7 @@ pip install senpwai
 }
 ```
 
-> then install the package provided by the flake by adding it to either `environment.systemPackages` or `home.packages`
+then install the package provided by the flake by adding it to either `environment.systemPackages` or `home.packages`
 
 > With `environment.systemPackages` (nixosModules)
   ```
